@@ -1,0 +1,387 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+
+
+
+
+
+.box{
+    width: 65px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.box:hover{
+    width: 200px;
+    background: #c32aa3;
+    border-radius: 35px;
+    color: #fff;
+    box-shadow: 0 0 50px #b315917c;
+}
+.box:nth-child(2):hover{
+    background: #25d366;
+    box-shadow: 0 0 50px #25d3657e;
+}
+.box:nth-child(3):hover{
+    background: #1877f2;
+    box-shadow: 0 0 50px #1876f285;
+}
+.box:nth-child(4):hover{
+    background: #1da1f2;
+    box-shadow: 0 0 50px #1da0f280;
+}
+.navbar p{
+    transform: translate(60px);
+}
+.box .icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+.instagram{
+    background-color: #c32aa3;
+}
+.whatsapp{
+    background-color: #25d366;
+}
+.facebook{
+    background-color: #1877f2;
+}
+.twitter{
+    background-color: #1da1f2;
+}
+.box:hover .icon{
+    background: #fff;
+    color: #3b3b3b;
+    box-shadow: 0 0 20px rgba(0,0,0,0.26);
+}
+
+
+
+
+
+
+
+
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+text {
+	font-family: Ubuntu;
+}
+
+form {
+	font-family: Ubuntu;
+}
+
+input {
+	display: flex;
+	justify-content: center;
+	width: 24%;
+	height: 4%;
+	min-height: 0vh;
+	align-items: center;
+	border-radius: 20px;
+	align-content: center;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	min-height: 50vh;
+	align-items: center;
+	gap: 40px;
+	font-size: 17px;
+	font-family: Ubuntu;
+}
+
+.container2 {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	min-height: 0vh;
+	align-items: center;
+	gap: 40px;
+	font-size: 17px;
+	font-family: Ubuntu;
+}
+
+.cardbg {
+	text-shadow: 0px 0px 5px black;
+	width: 220px;
+	height: 380px;
+	border-radius: 7px;
+	background-position: left;
+	background-size: cover;
+	text-align: center;
+	transition: 2s;
+}
+
+	.cardbg:hover {
+		text-shadow: 0px 0px 7px black;
+		width: 220px;
+		height: 380px;
+		border-radius: 7px;
+		background-position: right;
+		background-size: cover;
+		text-align: center;
+		cursor: pointer;
+		transition: 2s;
+	}
+
+.cardbg2 {
+	text-shadow: 0px 0px 7px black;
+	width: 220px;
+	height: 380px;
+	border-radius: 7px;
+	background-position: left;
+	background-size: cover;
+	text-align: center;
+	transition: 2s;
+}
+
+	.cardbg2:hover {
+		text-shadow: 0px 0px 5px black;
+		width: 220px;
+		height: 380px;
+		border-radius: 7px;
+		background-position: right;
+		background-size: cover;
+		text-align: center;
+		cursor: pointer;
+		transition: 2s;
+	}
+
+.banner {
+		width: 250vh;
+		height: 100vh;
+		background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.4)),url(https://www.10wallpaper.com/wallpaper/1366x768/1405/Farm_vast_landscape-Landscape_HD_Wallpaper_1366x768.jpg);
+		background-size: cover;
+		padding: 20px 100px;
+
+}
+
+
+.banner2 {
+		width: 100%;
+		height: 100vh;
+		background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.4)),url(https://www.10wallpaper.com/wallpaper/1366x768/1405/Farm_vast_landscape-Landscape_HD_Wallpaper_1366x768.jpg);
+		background-size: cover;
+		padding: 10px 100px;
+
+}
+
+h4 {
+	font-family: Quicksand;
+	text-align: left;
+}
+
+h5 {
+	font-family: Quicksand;
+	text-align: center;
+}
+
+p {
+	font-family: Ubuntu;
+	text-align: start;
+	padding: 20px 50px
+}
+
+li, a, button { 
+	font-family: Ubuntu;
+	font-size: 13px;
+	color: white;
+	text-decoration: none;
+	text-shadow: 10px;
+}
+
+.nav_links {
+
+	list-style: none;
+
+}
+
+.btn{
+	
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 17.5px 20px;
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+		color: #976c0f;
+}
+
+
+button:hover {
+	background-color:#976c0f ;
+}
+
+button {
+
+		padding: 8px 50px;
+	background-color: #14a52c;
+	border-radius: 20px;
+	cursor: pointer;
+	border: 1px solid black;
+	color: white;
+	transition: 0.15s;
+	position: sticky;
+	top: 0px;
+	font-family: Ubuntu;
+}
+
+.inferior {
+	padding: 30px 30%;
+}
+
+header {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+nav{
+
+	
+
+	background: #0f8021;
+	height: 100px;
+	width: 100%;
+	
+	
+	
+
+}
+
+/* Teste */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: hsl(187 40% 98%);
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+h2 {
+	margin: 0;
+	font-size: 1.4rem;
+}
+
+@media (min-width: 50em) {
+	h2 {
+		font-size: 1.8rem;
+	}
+}
+
+.cta {
+	--shadowColor: 187 60% 40%;
+	display: flex;
+	flex-wrap: wrap;
+	background: #14a52c;
+	max-width: 50rem;
+	width: 10%;
+	box-shadow: 0.10rem 0.10rem  #14a52c(var(--shadowColor) / 1);
+	border-radius: 0.8rem;
+	overflow: hidden;
+	border: 0.5rem solid;
+	width: 20%;
+}
+
+.cta img {
+	aspect-ratio: 3 / 2;
+	object-fit: cover;
+	flex: 1 1 300px;
+	outline: 0.5rem solid;
+}
+
+.CardsDicionario{
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	justify-content: center;
+}
+
+.cta__text-column {
+	padding: min(1rem, 5vw) min(1rem, 5vw) min(1.5rem, 5vw);
+	flex: 1 0 50%;
+	height: 50%;
+}
+
+.cta__text-column > * + * {
+	margin: min(1rem, 2.5vw) 0 0 0;
+}
+
+.cta a {
+	display: inline-block;
+	color: black;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	background: #49c25d;
+	border-radius: 0.6rem;
+	font-weight: 700;
+	border: 0.35rem solid;
+	transition: 0.5s;
+}
+
+.cta a:hover {
+	display: inline-block;
+	color: black;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	background: #976c0f;
+	border-radius: 0.6rem;
+	font-weight: 700;
+	border: 0.35rem solid;
+	transition: 0.5s;
+}
+
+
+
+
+
